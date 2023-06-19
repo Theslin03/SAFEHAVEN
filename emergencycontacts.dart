@@ -40,9 +40,10 @@ class Contact {
 
 class EmergencyContactsPage extends StatelessWidget {
   final List<Contact> emergencyContacts = [
-    Contact(name: 'Control Room', phoneNumber: '9496003611'),
-    Contact(name: 'Police Station', phoneNumber: '9497020733'),
-    Contact(name: 'Fire Force', phoneNumber: '9778304327'),
+    Contact(name: 'Police help line', phoneNumber: '100'),
+    Contact(name: 'Women help line', phoneNumber: '181'),
+    Contact(name: 'Pink police patrol', phoneNumber: '1515'),
+    Contact(name: 'Fire force', phoneNumber: '8547673878'),
   ];
 
   void _makePhoneCall(String phoneNumber) async {

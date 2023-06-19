@@ -551,8 +551,8 @@ class _SelfDefensePageState extends State<SelfDefensePage> {
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:sh_new_project/safetypage.dart';
-import 'package:sh_new_project/safetytips.dart';
-import 'package:sh_new_project/selfdefense.dart';
+//import 'package:sh_new_project/safetytips.dart';
+//import 'package:sh_new_project/selfdefense.dart';
 
 void launchURL(String url) async {
   if (await canLaunch(url)) {
